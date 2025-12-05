@@ -135,7 +135,7 @@ If you reboot the OpenWrt system you'll no longer have access to the files we've
 ## Making the File Available Again
 In a previous step, we used `mount /srv` to make the contents of _/dev/mmcblk0p3_ available under the _/srv_ directory. We were able to use the command `mount /srv`, because _/etc/fstab_ has the entry we created to associate _/dev/mmcblk0p3_ with _/srv_. We could have used the command `mount /dev/mmcblk0p3` to get the same result, and that is what we'll do here. But first, we will run a check of the file system.
 
-1. Check the file system health with the command `e2fsck /dev/mmcblk0p3`
+1. Check the file system health with the command `e2fsck -p /dev/mmcblk0p3`
 2. Verify the command's response says _/dev/mmcblk0p3: clean_
 3. Mount _/dev/mmcblk0p3_ on _/srv_
 
@@ -145,10 +145,10 @@ Running the previous steps everytime the system is rebooted will quickly become 
 1. From the OpenWrt command prompt, change to the _/etc_ directory using the command `cd /etc`
 2. Show the contents of _rc.local_ with the command `cat rc.local`
 3. Notice the last line of _exit 0_. If we add our commands after this, they won't run, because _exit 0_ terminates processing.
-4. Replace _exit 0_ (and the rest of the file) with our e2fsck and mount commands using the command shown below.
+4. Replace _exit 0_ (and the rest of the file) with our _e2fsck_ and _mount_ commands using the command shown below.
 
 ```
-echo "e2fsck /dev/mmcblk0p3 && mount /dev/mmcblk0p3" > /rc.local
+echo "e2fsck -p /dev/mmcblk0p3 && mount /dev/mmcblk0p3" > /rc.local
 ```
 
 This will execute both commands, but the double ampersand (&&) ensures the _mount_ command will only run if the _e2fsck_ command reports the filesystem is clean.
