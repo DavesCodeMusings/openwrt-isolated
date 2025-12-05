@@ -7,7 +7,7 @@ The problem with the Pi Zero W is that it lacks a wired Ethernet connection, so 
 > The instructions here are written to not only get an end result, but to hopefully understand some things in the process. As such, they sometimes takes a roundabout way of getting to the answers.
 
 ## Prerequisites:
-* You'll need a laptop with internet access and a Micro SD card slot.
+* You'll need a laptop with internet access and a microSD card slot.
 * You'll also need to install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 * Previous experience working with Raspberry Pis is a plus.
 
@@ -22,18 +22,18 @@ The problem with the Pi Zero W is that it lacks a wired Ethernet connection, so 
 3. Find the row for _Firmware OpenWrt Install URL_
 4. Click the link to download _Factory Image_
 
-## Write the downloaded OpenWrt firmware image to the Micro SD card
-1. Insert the Micro SD into the laptop, using an adapter if needed.
+## Write the downloaded OpenWrt firmware image to the MicroSD card
+1. Insert the microSD into the laptop, using an adapter if needed.
 2. Run the Raspberry Pi Imager.
 3. Choose _Raspberry Pi Zero_ as the device.
 4. Choose _Use Custom_ as the Operating System (OS).
 5. Select the OpenWrt firmware image file that was downloaded in the previous section.
-6. Select the Micro SD card device (there should be only one choice.)
-7. Write the image to the Micro SD.
+6. Select the microSD card device (there should be only one choice.)
+7. Write the image to the microSD.
 
-## Boot the Raspberry Pi Zero from the Micro SD card
+## Boot the Raspberry Pi Zero from the MicroSD card
 1. Attach a monitor and keyboard (or USB-serial adapter) to the Raspberry Pi Zero.
-2. Remove the Micro SD card from the laptop and insert into the Pi Zero.
+2. Remove the microSD card from the laptop and insert into the Pi Zero.
 3. Connect power to the Pi Zero.
 4. Watch the boot messages fly by on the screen.
 
