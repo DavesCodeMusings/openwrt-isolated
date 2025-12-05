@@ -9,4 +9,4 @@ I'm always looking for ways to upcycle old, obsolete Raspberry Pi hardware. The 
 2. Then, move on to [Improving the OpenWrt Isolated Network Experience.md](Improving%20the%20OpenWrt%20Isolated%20Network%20Experience.md)
 3. If you're really motivated, work through [Serving Files from the OpenWrt Raspberry Pi Zero.md](Serving%20Files%20from%20the%20OpenWrt%20Raspberry%20Pi%20Zero.md)
 
-The impatient can jump straight to [tl-dr.sh](tl-dr.sh)
+The impatient can jump straight to [tl-dr.sh](tl-dr.sh) for the initial WiFi setup and then figure things out from there.
