@@ -89,7 +89,7 @@ _/etc/fstab_ is where Linux systems record information about which file systems 
 3. Add a new line to mount the new file system on the _/srv_ directory. The command is shown below.
 
 ```
-echo "/dev/mmcblk0p3  /srv  ext4  defaults,noatime  0  0" >> fstab
+echo "/dev/mmcblk0p3  /srv  ext4  defaults,noatime  0  0" >> /etc/fstab
 ```
 
 ## Create the /srv Directory and Mount the New File System
