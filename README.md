@@ -6,6 +6,6 @@ I'm always looking for ways to upcycle old, obsolete Raspberry Pi hardware. The 
 
 ## Okay, show me how!
 1. Start with [Raspberry Pi Zero W as an Isolated WiFi Access Point.md](Raspberry%20Pi%20Zero%20W%20as%20an%20Isolated%20WiFi%20Access%20Point.md)
-2. Then, move on to Improving the OpenWrt Isolated Network Experience.md
+2. Then, move on to [Improving the OpenWrt Isolated Network Experience.md](Improving%20the%20OpenWrt%20Isolated%20Network%20Experience.md)
 
 The impatient can jump straight to tl-dr.sh
