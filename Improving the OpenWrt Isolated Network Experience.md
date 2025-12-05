@@ -9,7 +9,7 @@ In the steps below, we will first get the SFTP server installed. Then, we'll ins
 > The instructions here are written to not only get you an end result, but to hopefully understand some things in the process. As such, they sometimes takes a roundabout way of getting to the answers.
 
 ## Prerequisites:
-* You'll need a laptop with internet access and a Micro SD card slot.
+* You'll need a laptop with internet access and a microSD card slot.
 * You will also need the ability to log into OpenWrt via a command prompt (monitor and keyboard or serial connection.)
 
 ## Determine Your OpenWrt Package Source
@@ -27,16 +27,16 @@ In the steps below, we will first get the SFTP server installed. Then, we'll ins
 3. Follow the link for _openssh-sftp-server_
 4. Check your Downloads folder for the file starting with _openssh-sftp-server_ and ending with _.ipk_
 
-## Copy the Package to the SD Card
+## Copy the Package to the MicroSD Card
 1. Log into OpenWrt as root and type: `poweroff`
 2. Wait for the LEDs to go out and unplug the Raspberry Pi.
-3. Remove the Micro SD card from the Pi.
-4. Insert the Micro SD into the laptop, using an adpter if needed.
-5. Copy the downloaded _openssh-sftp-server_XXX.ipk_ file to the Micro SD card.
-6. Eject and remove the Micro SD when the copy is finished.
+3. Remove the microSD card from the Pi.
+4. Insert the microSD into the laptop, using an adpter if needed.
+5. Copy the downloaded _openssh-sftp-server_XXX.ipk_ file to the microSD card.
+6. Eject and remove the microSD when the copy is finished.
 
 ## Locating the SFTP Server Package
-1. Insert the Micro SD card into the Raspberry Pi and power up the Pi.
+1. Insert the microSD card into the Raspberry Pi and power up the Pi.
 2. Log into OpenWrt as root.
 3. Change to the _boot_ directory by typing `cd /boot`
 4. List the files there using the command `ls`
@@ -75,7 +75,7 @@ start_x.elf
 sftp>
 ```
 
-If you see the _sftp>_ prompt, and you can change to the _boot_ directory to list files, everything's working as it should. Notice the openssh-sftp-server package file we copied onto the Micro SD card previously.
+If you see the _sftp>_ prompt, and you can change to the _boot_ directory to list files, everything's working as it should. Notice the openssh-sftp-server package file we copied onto the microSD card previously.
 
 ## Fetching a Package for the Isolated Environment
 1. Log into the OpenWrt command prompt as root.
