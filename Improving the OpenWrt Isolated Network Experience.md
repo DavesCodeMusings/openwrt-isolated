@@ -9,6 +9,7 @@ In the steps below, we will first get the SFTP server installed. Then, we'll ins
 > The instructions here are written to not only get you an end result, but to hopefully understand some things in the process. As such, they sometimes takes a roundabout way of getting to the answers.
 
 ## Prerequisites:
+* You should have completed all the steps in _Raspberry Pi Zero W as an Isolated WiFi Access Point_
 * You'll need a laptop with internet access and a microSD card slot.
 * You will also need the ability to log into OpenWrt via a command prompt (monitor and keyboard or serial connection.)
 
