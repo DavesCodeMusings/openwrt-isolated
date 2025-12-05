@@ -71,7 +71,7 @@ Expert users can use fdisk to create partitions as well as view them, but cfdisk
 5. Choose a _primary_ partition.
 6. If everything looks good, choose _Write_. Otherwise, choose _Quit_ and try again.
 
-> Note: Be sure to type out _yes_ and not just enter _y_ to confirm writing.
+> Note: Be sure to type out "yes" and not just enter "y" to confirm writing.
 
 ## Creating a File System on the New Partition
 The partition will be formatted with an ext4 file system, since this is the standard used by most Linux distributions, including OpenWrt.
