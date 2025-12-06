@@ -6,11 +6,11 @@ The steps below will show you how we can make that extra space available for use
 ## Prerequisites:
 * Create the OpenWrt access point as directed in _Raspberry Pi Zero W as an Isolated WiFi Access Point_
 * Set up the SFTP server in _Improving the OpenWrt Isolated Network Experience_
-* You'll need a laptop with internet access and a microSD card slot.
-* You will also need the ability to log into OpenWrt via a command prompt.
+* You'll also need a laptop with internet access and a microSD card slot.
+* And, of course, you need the ability to log into OpenWrt via a command prompt.
 
 ## Warning!
-Do not use the expanded space to store anything critical. MicroSD cards are low-end storage devices prone to corruption and data loss. Future OpenWrt upgrades may erase part or all of the microSD card, leaving you without your data. Always keep a second copy of any files you don't want to lose.
+Do not use the expanded space to store anything critical. MicroSD cards are low-end storage devices prone to corruption and data loss. Future OpenWrt upgrades may erase part or all of the microSD card. Either of these situation could leave you crying over your lost files. Always keep a second copy of anything you don't want to lose.
 
 ## Previewing the Required Steps
 At a high level, this is what we'll need to do to serve files:
