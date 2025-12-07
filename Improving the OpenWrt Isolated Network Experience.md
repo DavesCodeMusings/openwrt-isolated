@@ -99,7 +99,7 @@ This time the package file will be copied using _sftp_ instead of moving the mic
 2. On the laptop, open a command prompt and change directory to your Downloads folder.
 3. Connect to the OpenWrt SFTP server with the command `sftp root@openwrt`
 4. Change directory to _/boot_ using `cd /boot`
-5. Transfer the luci dashboard package with `mput luci-mod-dashboard*`
+5. Transfer the _luci-mod-dashboard_ package file with `mput luci-mod-dashboard*`
 6. Doublecheck the file with `ls /boot/luci*` (This command works from both sftp and from the administrative command prompt.)
 
 ## Installing the Package File
