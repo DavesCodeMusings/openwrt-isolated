@@ -111,7 +111,7 @@ You can test your understanding of adding software packages in the non-internet 
 1. Show the package URLs with the command `cat /etc/opkg/distfeeds.conf`
 2. Find and download `libncurses6` by visiting the URL for _base_ packages.
 3. Find and download `nano` (not nano-plus or nano-full, just nano) from the URL for packages.
-4. Connext the laptop to the OpenWrt access point.
+4. Connect the laptop to the OpenWrt access point.
 5. Transfer both files from the laptop to the OpenWrt Raspberry Pi using _sftp_.
-6. Install _libncurse6_, then _nano_, using the `opkg install` command with the package name.
+6. Install _libncurse6_, then _nano_, using the `opkg install` command with the package file name.
 7. Test your installation by starting the editor with the command `nano`
