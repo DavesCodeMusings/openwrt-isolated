@@ -92,6 +92,9 @@ _/etc/fstab_ is where Linux systems record information about which file systems 
 echo "/dev/mmcblk0p3  /srv  ext4  defaults,noatime  0  0" >> /etc/fstab
 ```
 
+> Note:
+> If you installed the _nano_ editor in the previous document's steps, you can use the command `nano /etc/fstab` to make the changes. Just add the text between the quotes above as the last line of the file.
+
 ## Create the /srv Directory and Mount the New File System
 The _/srv_ directory is the standard place for Linux systems to store data served by the system and that's what we've specified in _fstab_. But, since OpenWrt is intended to be a wireless access point and not a file server, we'll need to create the directory before we can use it.
 
