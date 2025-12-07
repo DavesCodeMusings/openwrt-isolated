@@ -92,8 +92,7 @@ _/etc/fstab_ is where Linux systems record information about which file systems 
 echo "/dev/mmcblk0p3  /srv  ext4  defaults,noatime  0  0" >> /etc/fstab
 ```
 
-> Note:
-> If you installed the _nano_ editor in the previous document's steps, you can use the command `nano /etc/fstab` to make the changes. Just add the text between the quotes above as the last line of the file.
+> Note: If you installed the _nano_ editor in the previous document's steps, you can use the command `nano /etc/fstab` to make the changes. Just add the text between the quotes above as the last line of the file.
 
 ## Create the /srv Directory and Mount the New File System
 The _/srv_ directory is the standard place for Linux systems to store data served by the system and that's what we've specified in _fstab_. But, since OpenWrt is intended to be a wireless access point and not a file server, we'll need to create the directory before we can use it.
@@ -156,8 +155,7 @@ echo "e2fsck -p /dev/mmcblk0p3 && mount /dev/mmcblk0p3" > /etc/rc.local
 
 This will execute both commands, but the double ampersand (&&) ensures the _mount_ command will only run if the _e2fsck_ command reports the filesystem is clean.
 
-> Note:
-> If you're not keen on editing files from the command prompt, /etc/rc.local can be edited in the web administration tool. Just navigate to _System_ > _Startup_ and select the _Local Startup_ tab.
+> Note: If you're not keen on editing files from the command prompt, /etc/rc.local can be edited in the web administration tool. Just navigate to _System_ > _Startup_ and select the _Local Startup_ tab.
 
 ## Final Testing
 1. Reboot the system one more time.
