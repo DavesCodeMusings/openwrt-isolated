@@ -94,7 +94,7 @@ We can review the process for finding package files by searching for another add
 6. Follow the link to download the file.
 
 ## Transferring the Package File to OpenWrt
-This time the package file will be copied using _sftpp_ instead of moving the microSD card between devices.
+This time the package file will be copied using _sftp_ instead of moving the microSD card between devices.
 1. Connect the laptop's wifi to the OpenWrt access point.
 2. On the laptop, open a command prompt and change directory to your Downloads folder.
 3. Connect to the OpenWrt sftp server with the command `sftp root@openwrt`
