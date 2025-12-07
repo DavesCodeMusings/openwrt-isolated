@@ -114,7 +114,7 @@ The installation process is the same as it was when we installed _sftp_.
 Now that the SFTP server is installed and running, we should be able to connect from the laptop.
 1. Connect the laptop to the OpenWrt access point.
 2. Open a web browser and navigate to _http://openwrt_
-3. Verify the dashboard appears in the browser.
+3. Verify the dashboard view appears in the browser.
 
 ## Reviewing the Package Installation Process
 You can test your understanding of adding software packages in the non-internet connected environment by finding and installing the _nano_ editor. The high-level steps are listed below.
