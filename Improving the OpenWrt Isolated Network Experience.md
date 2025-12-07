@@ -117,7 +117,7 @@ Now that the SFTP server is installed and running, we should be able to connect 
 3. Verify the dashboard view appears in the browser.
 
 ## Reviewing the Package Installation Process
-You can test your understanding of adding software packages in the non-internet connected environment by finding and installing the _nano_ editor. The high-level steps are listed below.
+You can test your understanding of adding software packages in the non-internet connected environment by finding and installing the _nano_ text editor. The high-level steps are listed below.
 1. Show the package URLs with the command `cat /etc/opkg/distfeeds.conf`
 2. Find and download `libncurses6` by visiting the URL for _base_ packages.
 3. Find and download `nano` (not nano-plus or nano-full, just nano) from the URL for packages.
