@@ -106,7 +106,7 @@ This time the package file will be copied using _sftp_ instead of moving the mic
 The installation process is the same as it was when we installed _sftp_.
 1. Log into the OpenWrt command prompt as root.
 2. Change directory to _/boot_ (`cd /boot`)
-3. Begin typing the command to install the package `opkg ./luci-mod`
+3. Begin typing the command to install the package `opkg install luci-mod`
 4. Press TAB to auto-complete the file name.
 5. Press ENTER to confirm the installation.
 
