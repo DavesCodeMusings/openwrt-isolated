@@ -55,10 +55,10 @@ The package file copied from the laptop will end up in the _/boot_ directory. We
 4. Watch for messages about installing and configuring.
 
 ## Testing the SFTP Server
-Once the sftp server is installed, we won't need to remove the microSD to transfer files, we'll use _sftp_ instead.
+Once the SFTP server is installed, we won't need to remove the microSD to transfer files, we'll use _sftp_ instead.
 1. From the laptop, connect to the OpenWrt access point.
 2. Open a command prompt on the laptop.
-3. Use the laptop's sftp program to connect to the OpenWrt SFTP server as the root user and browse the _/boot_ directory. (See example below.)
+3. Use the laptop's _sftp_ program to connect to the OpenWrt SFTP server as the root user and browse the _/boot_ directory. (See example below.)
 
 ```
 PS C:\> sftp root@openwrt
@@ -97,7 +97,7 @@ We can review the process for finding package files by searching for another add
 This time the package file will be copied using _sftp_ instead of moving the microSD card between devices.
 1. Connect the laptop's wifi to the OpenWrt access point.
 2. On the laptop, open a command prompt and change directory to your Downloads folder.
-3. Connect to the OpenWrt sftp server with the command `sftp root@openwrt`
+3. Connect to the OpenWrt SFTP server with the command `sftp root@openwrt`
 4. Change directory to _/boot_ using `cd /boot`
 5. Transfer the luci dashboard package with `mput luci-mod-dashboard*`
 6. Doublecheck the file with `ls /boot/luci*` (This command works from both sftp and from the administrative command prompt.)
