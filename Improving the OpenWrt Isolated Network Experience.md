@@ -113,7 +113,7 @@ The installation process is the same as it was when we installed _sftp_.
 ## Checking the Result
 Now that the SFTP server is installed and running, we should be able to connect from the laptop.
 1. Connect the laptop to the OpenWrt access point.
-2. Open a web browser and navigate to _http://openwrt_
+2. Open a web browser and navigate to _http://openwrt.lan_
 3. Verify the dashboard view appears in the browser.
 
 ## Reviewing the Package Installation Process
