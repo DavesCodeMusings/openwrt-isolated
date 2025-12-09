@@ -119,7 +119,7 @@ Now that the SFTP server is installed and running, we should be able to connect 
 ## Reviewing the Package Installation Process
 You can test your understanding of adding software packages in the non-internet connected environment by finding and installing the _nano_ text editor. The high-level steps are listed below.
 1. Show the _opkg_ URLs with the command `cat /etc/opkg/distfeeds.conf`
-2. Find and download _libncurses6_ by visiting the URL for _base_ packages.
+2. Find and download _libncurses6_ by visiting the URL for OpenWrt _base_ packages.
 3. Find and download _nano_ (not _nano-plus_ or _nano-full_, just _nano_) from the URL for _packages_.
 4. Connect the laptop to the OpenWrt access point.
 5. Transfer both files from the laptop to the OpenWrt Raspberry Pi using _sftp_.
